@@ -1,6 +1,6 @@
 # WordPress.org Repository
 
-* __[Readme.txt](#)__
+* __[Readme.txt](#readmetxt)__
 
 ## Readme.txt
 * Download [Readme Standard](http://wordpress.org/extend/plugins/about/readme.txt) from Wordpress.org
