@@ -6,7 +6,7 @@ export WP_CORE_DIR=/tmp/wordpress
 
 plugin_slug=$(basename $(pwd))
 plugin_dir=$WP_CORE_DIR/wp-content/plugins/$plugin_slug
-wp_content?$WP_CORE_DIR/wp-content
+wp_content=$WP_CORE_DIR/wp-content
 
 # Init database
 mysql -e 'CREATE DATABASE wordpress_test;' -uroot
