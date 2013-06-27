@@ -52,8 +52,7 @@ choose something simple like "release", not a list of changes -> changelog is in
 	* readme.txt: `Stable tag:` __1.1.1__
 	* _plugin-name_.php: `Version:` __1.1.1__
 
-### Tagging
-* [see above](#tags)
+### Tagging [see above](#tags)
 
 ### Push to SVN
 * push the files of the tag to `SVN/tag/1.1.1/`
@@ -61,8 +60,8 @@ choose something simple like "release", not a list of changes -> changelog is in
 
 ### Re-Versioning
 * Set all version number in all the relevant places for the next tag/release
-	* README.md: `Current stable release:` __1.1.2-dev__
-	* readme.txt: `Stable tag:` __1.1.2-dev__
+	* README.md: `Current dev version:` __1.1.2-dev__
+	* readme.txt: `Stable tag:` __1.1.1__
 	* _plugin-name_.php: `Version:` __1.1.2-dev__
 
 
