@@ -20,7 +20,7 @@ cd ..
 mv $plugin_slug $plugin_dir
 
 # Grab Travis-CI specific config file
-wget -nv -O $plugin_dir/tests/wp-tests-config.php https://raw.github.com/wp-repository/wp-repository.codex/phpunit-wpmu-theme-usage-info/phpunit/wp-tests-config.php
+wget -nv -O $plugin_dir/tests/wp-tests-config.php https://raw.github.com/wp-repository/wp-repository.codex/phpunit-wpmu-theme-usage-info/wp-tests-config.php
 
 # Make sure wp-tests-lib is available
 if [ ! -d $plugin_dir/tests/lib ]
