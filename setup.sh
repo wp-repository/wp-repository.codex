@@ -24,7 +24,7 @@ mv $plugin_slug $plugin_dir
 wget -nv -O $plugin_dir/tests/wp-tests-config.php https://raw.github.com/wp-repository/wp-repository.codex/phpunit-generic/wp-tests-config.php
 
 # Add MySQLi extension support to WP
-if [ "TRAVIS_PHP_VERSION" == "5.5" ]
+if [ $(phpenv version-name) = "5.5" ]
 then
 	wget -nv -O $wp_content/db.php https://raw.github.com/markoheijnen/wp-mysqli/master/db.php
 fi
